@@ -1,0 +1,30 @@
+2022-06-04 10:11:51.352  INFO 23120 --- [restartedMain] com.yty.blog.BlogApplication             : Starting BlogApplication using Java 1.8.0_291 on LAPTOP-U4O6F68E with PID 23120 (D:\学习\javaweb项目\blog-admin\target\classes started by 杨pc in D:\学习\javaweb项目\blog-admin)
+2022-06-04 10:11:51.356  INFO 23120 --- [restartedMain] com.yty.blog.BlogApplication             : No active profile set, falling back to default profiles: default
+2022-06-04 10:11:51.396  INFO 23120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-06-04 10:11:51.396  INFO 23120 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-06-04 10:11:52.127  INFO 23120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-04 10:11:52.128  INFO 23120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-06-04 10:11:52.145  INFO 23120 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
+2022-06-04 10:11:52.249 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\学习\javaweb项目\blog-admin\target\classes\com\yty\blog\dao\ArticleMapper.class]
+2022-06-04 10:11:52.249 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Identified candidate component class: file [D:\学习\javaweb项目\blog-admin\target\classes\com\yty\blog\dao\UserMapper.class]
+2022-06-04 10:11:52.250 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'articleMapper' and 'com.yty.blog.dao.ArticleMapper' mapperInterface
+2022-06-04 10:11:52.250 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'articleMapper'.
+2022-06-04 10:11:52.250 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Creating MapperFactoryBean with name 'userMapper' and 'com.yty.blog.dao.UserMapper' mapperInterface
+2022-06-04 10:11:52.250 DEBUG 23120 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2022-06-04 10:11:52.596  INFO 23120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2022-06-04 10:11:52.602  INFO 23120 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-04 10:11:52.603  INFO 23120 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2022-06-04 10:11:52.654  INFO 23120 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-04 10:11:52.654  INFO 23120 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1257 ms
+2022-06-04 10:11:53.690  INFO 23120 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-06-04 10:11:54.041  INFO 23120 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2022-06-04 10:11:54.249  INFO 23120 --- [restartedMain] com.yty.blog.BlogApplication             : Started BlogApplication in 3.332 seconds (JVM running for 4.127)
+2022-06-04 10:12:02.940  INFO 23120 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-04 10:12:02.940  INFO 23120 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-04 10:12:02.941  INFO 23120 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-04 10:12:02.968 DEBUG 23120 --- [http-nio-8081-exec-1] org.mybatis.spring.SqlSessionUtils       : Creating a new SqlSession
+2022-06-04 10:12:02.971 DEBUG 23120 --- [http-nio-8081-exec-1] org.mybatis.spring.SqlSessionUtils       : SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e51da0d] was not registered for synchronization because synchronization is not active
+2022-06-04 10:12:02.992  INFO 23120 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-04 10:12:03.092  INFO 23120 --- [http-nio-8081-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-04 10:12:03.094 DEBUG 23120 --- [http-nio-8081-exec-1] o.m.s.t.SpringManagedTransaction         : JDBC Connection [HikariProxyConnection@1185787234 wrapping com.mysql.cj.jdbc.ConnectionImpl@15dbfabc] will not be managed by Spring
+2022-06-04 10:12:03.125 DEBUG 23120 --- [http-nio-8081-exec-1] org.mybatis.spring.SqlSessionUtils       : Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4e51da0d]
